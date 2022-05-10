@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(51, 51, 51);
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+    color: blue;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+header>.container {
+    overflow: hidden;
+}
+
+#logo {
+    float: left;
+    width: 170px;
+}
+
+nav {
+    float: right;
+    width: 630px;
+    margin-top: 30px;
+}
+
+nav>ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(190, 179, 17, 0.726);
+    text-transform: uppercase;
+    padding: 0 18px;
+}
+
+nav a:hover {
+    transition-delay: 130ms;
+    color: red;
+}
+
+#banner h1,
+#banner p {
+    color: blue;
+    font-size: 70px;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+}
+
+#banner p {
+    top: 350px;
+    left: 0px;
+    letter-spacing: 10px;
+}
+
+#sobre {
+    text-align: center;
+    margin: 30px 50px 0 50px;
+    color: rgb(34, 134, 194);
+}
+
+iframe {
+    margin-top: 50px;
+}
+
+#services {
+    margin-bottom: 50px;
+}
+
+#services h2,
+#about h2 {
+    margin: 70px 0;
+}
+
+#services figure {
+    width: 23%;
+    padding: 10px;
+    float: left;
+}
+
+#about {
+    margin-bottom: 50px;
+}
+
+#about h2 {
+    clear: both;
+    margin: 70px 0;
+    padding-top: 50px;
+}
+
+#about .figure {
+    float: left;
+    width: 200px;
+    padding: 0 20px 0 0;
+}
+
+#contact h2 {
+    margin: 70px 0;
+    padding-top: 50px;
+}
+
+#contact-area {
+    width: 600px;
+    margin: 25px auto;
+}
+
+#contact-area input,
+#contact-area textarea {
+    padding: 5px;
+    width: 471px;
+    font-size: 1.4em;
+    margin: 0 0 10px 0;
+}
+
+#contact-area textarea {
+    height: 90px;
+}
+
+#contact-area input.submit-button {
+    width: 100px;
+    float: left;
+    margin-left: 300px;
+    color: black;
+    cursor: pointer;
+}
+
+label {
+    float: left;
+    width: 100px;
+    padding-top: 7px;
+    font-size: 20px;
+    color: red;
+    margin-right: 15px;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+footer p {
+    padding-top: 18px;
+}
+
+.fim {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.up {
+    float: right;
+    margin-right: 30px;
+}
+
+.subir {
+    width: 30px;
+    height: 30px;
+}
